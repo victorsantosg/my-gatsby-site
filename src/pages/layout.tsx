@@ -1,13 +1,14 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import { Link } from "gatsby"
-import { container, navLinks, navLinkItem, navLinkText } from './layout.modules.css'
+import { container, navLinks, navLinkItem, navLinkText } from "./layout.module.css"
+
 
 
 const Layout: React.FC<PageProps> = ({ pageTitle, children }) => {
   return (
     <div className={container}>
-        <hr />
+
         <nav>
             <ul className={navLinks}>
                 <li className={navLinkItem}><Link to="/" className={navLinkText}>Home</Link></li>
