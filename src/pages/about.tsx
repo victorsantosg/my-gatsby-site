@@ -7,9 +7,10 @@ const About: React.FC<PageProps> = () => {
     <Layout pageTitle="Sobre">
       <hr />
       <Link to="/">Home</Link>
-
+      <hr />
       <p>Iniciando com os primeiros componentes React no Gatsby</p>
     </Layout>
+
   );
 };
 
